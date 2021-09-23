@@ -1,0 +1,17 @@
+var student1= {};
+student1.name="sai charn";
+student1.class=100;
+student1.address="abc";
+
+function student(name1,class1,address1){
+  	var obj={};
+    obj.name= name1 ;
+    obj.class= class1;
+    obj.address= address1;
+		return obj;
+}
+
+var student2=student("sai",7,"bca");
+
+student1
+student2
